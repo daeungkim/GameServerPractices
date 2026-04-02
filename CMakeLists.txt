@@ -11,6 +11,8 @@ find_package(GTest REQUIRED)
 
 add_executable(cpp_behavior_tests
   tests/cpp_behavior_test.cpp
+  tests/enum_behavior_test.cpp
+  tests/type_traits_test.cpp
 )
 
 target_link_libraries(cpp_behavior_tests
